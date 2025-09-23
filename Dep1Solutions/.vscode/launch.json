@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Program.exe (all C files)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\program.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "preLaunchTask": "Build All C Files"   // 👈 compile before running
+        }
+    ]
+}
